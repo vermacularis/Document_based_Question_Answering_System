@@ -1,0 +1,15 @@
+✅ 5. Document-based Question Answering System (GenAI)
+Objective:
+Allow users to upload documents (PDFs, Word files) and ask questions based on the content.
+Tech Stack:
+LangChain, OpenAI API (GPT-4), ChromaDB or FAISS, Streamlit
+Description:
+This is a Generative AI app that uses LLMs and vector search to provide intelligent answers from within a document. Upon upload, the text is chunked and embedded using OpenAI embeddings. A user query is also embedded, and the most similar chunk(s) are passed to the LLM to generate an answer with context.
+Key Features:
+•	File upload (PDF/Doc)
+•	Chunking + vector embedding
+•	Context-aware LLM answer generation
+•	Simple and professional UI
+Use Case:
+Useful in legal firms, educational platforms, and knowledge management tools.
+________________________________________
